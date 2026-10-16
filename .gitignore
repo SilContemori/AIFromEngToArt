@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Local environments and editor settings
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Local datasets, model files, and generated outputs
+data/*
+models/*
+!models/__init__.py
+outputs/*
+
+tests
+
