@@ -19,5 +19,4 @@ models/*
 !models/__init__.py
 outputs/*
 
-tests
 
