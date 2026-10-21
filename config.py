@@ -84,3 +84,9 @@ PHASE7_SUBJECTS = (
 
 # Phase 8: manual review artifacts derived only from the saved Phase 7 experiment.
 PHASE8_DIR = EXPERIMENTS_DIR / "phase8"
+
+# Controlled frozen-backbone comparison; keep historical reports untouched.
+CLASSIFIER_EXPERIMENT_DIR = EXPERIMENTS_DIR / "classifier_optimization"
+CLASSIFIER_TRIAL_LEARNING_RATES = (0.001, 0.0003)
+CLASSIFIER_MAX_EPOCHS = 30
+CLASSIFIER_PATIENCE = 6
